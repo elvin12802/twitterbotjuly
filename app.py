@@ -1,6 +1,6 @@
 import tweepy
 import time
-import os 
+import os  # to get variables from config var in settings
 
 consumer_key = os.getenv('consumer_key')
 consumer_secret = os.getenv('consumer_secret')
